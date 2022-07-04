@@ -18,41 +18,27 @@
 <body class="page-contact">
     <div class="container frm-contact">
         <div class="wrapper">
-            <form>
-                <div class="mb-3 form-control-md">
+            <form id="contact-form" action="#">
+                <div class="mb-3 form-control-md box-lists">
                     <input type="text" class="form-control input rounded-0" id="name" placeholder="Name"
                         aria-describedby="name">
                 </div>
-                <div class="mb-3 form-control-md">
+                <div class="mb-3 form-control-md box-lists">
                     <input type="number" class="form-control input rounded-0" id="phone" placeholder="Phone"
                         aria-describedby="phone">
                 </div>
-                <div class="mb-3 form-control-md">
+                <div class="mb-3 form-control-md box-lists">
                     <input type="text" class="form-control input rounded-0" id="email" placeholder="john@example.com"
                         aria-describedby="email">
                 </div>
                 <div class="form-control-md">
-                    <button type="submit" class="btn input rounded-0 w-100">Save</button>
+                    <button type="submit" value="" id="button-submit" class="btn input rounded-0 w-100">Save</button>
                 </div>
             </form>
         </div>
         <div class="contact-lists mt-5">
-            <table class="table table-hover">
+            <table class="table table-hover" id="data-lists">
                 <tbody>
-                    <tr class="recode">
-                        <th scope="row">1</th>
-                        <td>David</td>
-                        <td>01588888888</td>
-                        <td>contact-us@gmail.com</td>
-                        <td>2022/06/29 14:23</td>
-                        <td>
-                            <div style="float:right">
-                                <button type="submit" class="btn input rounded-0 w-30" id="edit">Edit</button>
-                                <button type="button" class="btn btn-danger input rounded-0 w-30"
-                                    id="delete">Delete</button>
-                            </div>
-                        </td>
-                    </tr>
                 </tbody>
                 <thead>
                     <tr>
